@@ -1,0 +1,44 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --background-color: #f1f1f1;
+}
+
+* {
+    box-sizing:  inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid-full-width {
+    width: 100%;
+}
+
+.grid-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.display__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mlr__15px {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
